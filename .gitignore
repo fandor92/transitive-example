@@ -1,0 +1,15 @@
+*.log
+*.nib
+*.zip
+*.xcscmblueprint
+*-bundle.bundle/
+build/
+Build/
+DerivedData/
+src/xcode/*.xcodeproj/project.xcworkspace/
+target/
+xcuserdata/
+.idea/
+
+# CocoaPods
+Pods/
