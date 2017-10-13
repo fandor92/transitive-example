@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		672553C41F7D8A3100D15BFE /* TransitiveExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 672553C21F7D8A3100D15BFE /* TransitiveExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		672553CB1F7D8B3C00D15BFE /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672553CA1F7D8B3C00D15BFE /* ExampleClass.swift */; };
-		97204E7CB47EE73F1C0A3A14 /* Pods_TransitiveExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E5E936906BA8933C72032C /* Pods_TransitiveExample.framework */; };
+		67BD44251F8F665A00C060C8 /* TransitiveExample-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BD44241F8F662300C060C8 /* TransitiveExample-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DFC9821B272340D9F44F168 /* Pods_TransitiveExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFA024F648B4DBA19D95DEB /* Pods_TransitiveExample.framework */; };
+		C5428B5A1F90B1950085B337 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5428B581F90B1940085B337 /* TwitterCore.framework */; };
+		C5428B5B1F90B1950085B337 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5428B591F90B1940085B337 /* TwitterKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48E5E936906BA8933C72032C /* Pods_TransitiveExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitiveExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFA024F648B4DBA19D95DEB /* Pods_TransitiveExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitiveExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		653B96EEACA2E22C121A50C0 /* Pods-TransitiveExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitiveExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TransitiveExample/Pods-TransitiveExample.debug.xcconfig"; sourceTree = "<group>"; };
 		672553BF1F7D8A3100D15BFE /* TransitiveExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransitiveExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		672553C21F7D8A3100D15BFE /* TransitiveExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitiveExample.h; sourceTree = "<group>"; };
 		672553C31F7D8A3100D15BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		672553CA1F7D8B3C00D15BFE /* ExampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClass.swift; sourceTree = "<group>"; };
-		C5326CE3791BCAB95D8DAD7F /* Pods-TransitiveExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitiveExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TransitiveExample/Pods-TransitiveExample.release.xcconfig"; sourceTree = "<group>"; };
-		E1C13D6FD40F4E6B9FDED121 /* Pods-TransitiveExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitiveExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TransitiveExample/Pods-TransitiveExample.debug.xcconfig"; sourceTree = "<group>"; };
+		67BD44241F8F662300C060C8 /* TransitiveExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransitiveExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		C5428B581F90B1940085B337 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		C5428B591F90B1940085B337 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		F869F66EA1184961F8AD8C8C /* Pods-TransitiveExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitiveExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TransitiveExample/Pods-TransitiveExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,7 +31,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97204E7CB47EE73F1C0A3A14 /* Pods_TransitiveExample.framework in Frameworks */,
+				C5428B5A1F90B1950085B337 /* TwitterCore.framework in Frameworks */,
+				C5428B5B1F90B1950085B337 /* TwitterKit.framework in Frameworks */,
+				8DFC9821B272340D9F44F168 /* Pods_TransitiveExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,8 +45,8 @@
 			children = (
 				672553C11F7D8A3100D15BFE /* TransitiveExample */,
 				672553C01F7D8A3100D15BFE /* Products */,
-				E4B9F7202872B24ABC3D7796 /* Pods */,
-				A0BB996F41EDD25C734A638C /* Frameworks */,
+				7FEB898EF0CC083D45E3CA61 /* Frameworks */,
+				F06E12BEC5024F478721E516 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,26 +61,28 @@
 		672553C11F7D8A3100D15BFE /* TransitiveExample */ = {
 			isa = PBXGroup;
 			children = (
-				672553C21F7D8A3100D15BFE /* TransitiveExample.h */,
 				672553C31F7D8A3100D15BFE /* Info.plist */,
 				672553CA1F7D8B3C00D15BFE /* ExampleClass.swift */,
+				67BD44241F8F662300C060C8 /* TransitiveExample-Bridging-Header.h */,
 			);
 			path = TransitiveExample;
 			sourceTree = "<group>";
 		};
-		A0BB996F41EDD25C734A638C /* Frameworks */ = {
+		7FEB898EF0CC083D45E3CA61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				48E5E936906BA8933C72032C /* Pods_TransitiveExample.framework */,
+				C5428B581F90B1940085B337 /* TwitterCore.framework */,
+				C5428B591F90B1940085B337 /* TwitterKit.framework */,
+				4DFA024F648B4DBA19D95DEB /* Pods_TransitiveExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E4B9F7202872B24ABC3D7796 /* Pods */ = {
+		F06E12BEC5024F478721E516 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E1C13D6FD40F4E6B9FDED121 /* Pods-TransitiveExample.debug.xcconfig */,
-				C5326CE3791BCAB95D8DAD7F /* Pods-TransitiveExample.release.xcconfig */,
+				653B96EEACA2E22C121A50C0 /* Pods-TransitiveExample.debug.xcconfig */,
+				F869F66EA1184961F8AD8C8C /* Pods-TransitiveExample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -86,7 +94,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				672553C41F7D8A3100D15BFE /* TransitiveExample.h in Headers */,
+				67BD44251F8F665A00C060C8 /* TransitiveExample-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 672553C71F7D8A3100D15BFE /* Build configuration list for PBXNativeTarget "TransitiveExample" */;
 			buildPhases = (
-				B03863DE3D2270471B55636A /* [CP] Check Pods Manifest.lock */,
+				41EF1C76FEE3F6F218B624A3 /* [CP] Check Pods Manifest.lock */,
 				672553BA1F7D8A3100D15BFE /* Sources */,
 				672553BB1F7D8A3100D15BFE /* Frameworks */,
 				672553BC1F7D8A3100D15BFE /* Headers */,
 				672553BD1F7D8A3100D15BFE /* Resources */,
-				29BB527C61F0DEC64330C2B2 /* [CP] Copy Pods Resources */,
+				DB63DDF6B6F384BEA4D4C02C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,25 +165,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29BB527C61F0DEC64330C2B2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TransitiveExample/Pods-TransitiveExample-resources.sh",
-				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitiveExample/Pods-TransitiveExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B03863DE3D2270471B55636A /* [CP] Check Pods Manifest.lock */ = {
+		41EF1C76FEE3F6F218B624A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,6 +181,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB63DDF6B6F384BEA4D4C02C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitiveExample/Pods-TransitiveExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -256,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -310,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -322,16 +327,22 @@
 		};
 		672553C81F7D8A3100D15BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1C13D6FD40F4E6B9FDED121 /* Pods-TransitiveExample.debug.xcconfig */;
+			baseConfigurationReference = 653B96EEACA2E22C121A50C0 /* Pods-TransitiveExample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = QUD4376WTZ;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -345,11 +356,13 @@
 				);
 				INFOPLIST_FILE = TransitiveExample/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hu.autsoft.TransitiveExample;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TransitiveExample/TransitiveExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,16 +371,22 @@
 		};
 		672553C91F7D8A3100D15BFE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5326CE3791BCAB95D8DAD7F /* Pods-TransitiveExample.release.xcconfig */;
+			baseConfigurationReference = F869F66EA1184961F8AD8C8C /* Pods-TransitiveExample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = QUD4376WTZ;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -381,11 +400,13 @@
 				);
 				INFOPLIST_FILE = TransitiveExample/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hu.autsoft.TransitiveExample;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TransitiveExample/TransitiveExample-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

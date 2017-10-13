@@ -7,7 +7,8 @@
 
 import UIKit
 import SwiftyJSON
+import TwitterKit
 
 class ExampleClass: NSObject {
-
+    Twitter.sharedInstance().start(withConsumerKey:"hTpkPVU4pThkM0", consumerSecret:"ovEqziMzLpUOF163Qg2mj")
 }

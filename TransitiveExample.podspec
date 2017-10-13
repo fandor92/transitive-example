@@ -8,10 +8,13 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :git => 'https://github.com/fandor92/transitive-example.git' }
-    s.ios.deployment_target = '8.0'
-    s.static_framework = true
+    s.source            = { :path => '/Users/andorfitos/Autsoft/TransitiveExample/' }
+    #s.source            = { :git => 'https://github.com/fandor92/transitive-example.git' }
+    s.ios.deployment_target = '9.0'
+    #s.static_framework = true
     s.source_files = 'TransitiveExample/**/*'
-    s.dependency 'TwitterKit'
     s.dependency 'SwiftyJSON'
+    #s.dependency 'TwitterKit'
+    s.vendored_frameworks = 'TwitterKit.framework','TwitterCore.framework'
+    #spec.user_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/../../../Foo/Frameworks"' }
 end 

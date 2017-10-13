@@ -1,21 +1,12 @@
 PODS:
-  - Fabric (1.6.13)
   - SwiftyJSON (3.1.4)
-  - TwitterCore (2.8.0):
-    - Fabric
-  - TwitterKit (2.8.1):
-    - TwitterCore (>= 2.8)
 
 DEPENDENCIES:
   - SwiftyJSON
-  - TwitterKit
 
 SPEC CHECKSUMS:
-  Fabric: 2fb5676bc811af011a04513451f463dac6803206
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
-  TwitterCore: e959987be23c767004d29eb7fab8d85d8585a2e5
-  TwitterKit: 3b6044a7320340326a4098f3e37aa1dbaeb94942
 
-PODFILE CHECKSUM: 78d1878eff9f7b57678bcaf7888d32f67f379a64
+PODFILE CHECKSUM: 9165e2c54cf3e6fe3fe047450a9db23e8dc42c40
 
 COCOAPODS: 1.4.0.beta.1
