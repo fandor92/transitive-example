@@ -9,21 +9,17 @@
 /* Begin PBXBuildFile section */
 		672553CB1F7D8B3C00D15BFE /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672553CA1F7D8B3C00D15BFE /* ExampleClass.swift */; };
 		67BD44251F8F665A00C060C8 /* TransitiveExample-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BD44241F8F662300C060C8 /* TransitiveExample-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DFC9821B272340D9F44F168 /* Pods_TransitiveExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFA024F648B4DBA19D95DEB /* Pods_TransitiveExample.framework */; };
 		C5428B5A1F90B1950085B337 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5428B581F90B1940085B337 /* TwitterCore.framework */; };
 		C5428B5B1F90B1950085B337 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5428B591F90B1940085B337 /* TwitterKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4DFA024F648B4DBA19D95DEB /* Pods_TransitiveExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitiveExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		653B96EEACA2E22C121A50C0 /* Pods-TransitiveExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitiveExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TransitiveExample/Pods-TransitiveExample.debug.xcconfig"; sourceTree = "<group>"; };
 		672553BF1F7D8A3100D15BFE /* TransitiveExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransitiveExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		672553C31F7D8A3100D15BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		672553CA1F7D8B3C00D15BFE /* ExampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClass.swift; sourceTree = "<group>"; };
 		67BD44241F8F662300C060C8 /* TransitiveExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransitiveExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		C5428B581F90B1940085B337 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		C5428B591F90B1940085B337 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
-		F869F66EA1184961F8AD8C8C /* Pods-TransitiveExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitiveExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TransitiveExample/Pods-TransitiveExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +29,6 @@
 			files = (
 				C5428B5A1F90B1950085B337 /* TwitterCore.framework in Frameworks */,
 				C5428B5B1F90B1950085B337 /* TwitterKit.framework in Frameworks */,
-				8DFC9821B272340D9F44F168 /* Pods_TransitiveExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +41,6 @@
 				672553C11F7D8A3100D15BFE /* TransitiveExample */,
 				672553C01F7D8A3100D15BFE /* Products */,
 				7FEB898EF0CC083D45E3CA61 /* Frameworks */,
-				F06E12BEC5024F478721E516 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,18 +67,8 @@
 			children = (
 				C5428B581F90B1940085B337 /* TwitterCore.framework */,
 				C5428B591F90B1940085B337 /* TwitterKit.framework */,
-				4DFA024F648B4DBA19D95DEB /* Pods_TransitiveExample.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F06E12BEC5024F478721E516 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				653B96EEACA2E22C121A50C0 /* Pods-TransitiveExample.debug.xcconfig */,
-				F869F66EA1184961F8AD8C8C /* Pods-TransitiveExample.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,12 +89,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 672553C71F7D8A3100D15BFE /* Build configuration list for PBXNativeTarget "TransitiveExample" */;
 			buildPhases = (
-				41EF1C76FEE3F6F218B624A3 /* [CP] Check Pods Manifest.lock */,
 				672553BA1F7D8A3100D15BFE /* Sources */,
 				672553BB1F7D8A3100D15BFE /* Frameworks */,
 				672553BC1F7D8A3100D15BFE /* Headers */,
 				672553BD1F7D8A3100D15BFE /* Resources */,
-				DB63DDF6B6F384BEA4D4C02C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,42 +145,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		41EF1C76FEE3F6F218B624A3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TransitiveExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DB63DDF6B6F384BEA4D4C02C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TransitiveExample/Pods-TransitiveExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		672553BA1F7D8A3100D15BFE /* Sources */ = {
@@ -327,7 +273,6 @@
 		};
 		672553C81F7D8A3100D15BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 653B96EEACA2E22C121A50C0 /* Pods-TransitiveExample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -371,7 +316,6 @@
 		};
 		672553C91F7D8A3100D15BFE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F869F66EA1184961F8AD8C8C /* Pods-TransitiveExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_MODULES = YES;
