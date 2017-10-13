@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		672553CB1F7D8B3C00D15BFE /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672553CA1F7D8B3C00D15BFE /* ExampleClass.swift */; };
 		67BD44251F8F665A00C060C8 /* TransitiveExample-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BD44241F8F662300C060C8 /* TransitiveExample-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5428B5A1F90B1950085B337 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5428B581F90B1940085B337 /* TwitterCore.framework */; };
-		C5428B5B1F90B1950085B337 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5428B591F90B1940085B337 /* TwitterKit.framework */; };
+		C59212FF1F90B49C00D0C579 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59212FD1F90B49C00D0C579 /* TwitterCore.framework */; };
+		C59213001F90B49C00D0C579 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59212FE1F90B49C00D0C579 /* TwitterKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,8 +18,8 @@
 		672553C31F7D8A3100D15BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		672553CA1F7D8B3C00D15BFE /* ExampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClass.swift; sourceTree = "<group>"; };
 		67BD44241F8F662300C060C8 /* TransitiveExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransitiveExample-Bridging-Header.h"; sourceTree = "<group>"; };
-		C5428B581F90B1940085B337 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
-		C5428B591F90B1940085B337 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		C59212FD1F90B49C00D0C579 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		C59212FE1F90B49C00D0C579 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,8 +27,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5428B5A1F90B1950085B337 /* TwitterCore.framework in Frameworks */,
-				C5428B5B1F90B1950085B337 /* TwitterKit.framework in Frameworks */,
+				C59212FF1F90B49C00D0C579 /* TwitterCore.framework in Frameworks */,
+				C59213001F90B49C00D0C579 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,8 +65,8 @@
 		7FEB898EF0CC083D45E3CA61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C5428B581F90B1940085B337 /* TwitterCore.framework */,
-				C5428B591F90B1940085B337 /* TwitterKit.framework */,
+				C59212FD1F90B49C00D0C579 /* TwitterCore.framework */,
+				C59212FE1F90B49C00D0C579 /* TwitterKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -307,7 +307,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "TransitiveExample/TransitiveExample-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/TransitiveExample/TransitiveExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,7 +350,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "TransitiveExample/TransitiveExample-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/TransitiveExample/TransitiveExample-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
